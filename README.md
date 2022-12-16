@@ -4,7 +4,7 @@ This project was designed to help Steve as a beginning investment advisor.  His 
 ## Results
 The results showed that in 2017, all of the stocks improved except for TERP.  However, in 2018, all of the stocks had negative returns for the year excapt for ENPH and RUN.  
 Steve also requested that we run the code in such a way that the program can run quickly and efficiently. The first version of the code ran in 0.64 seconds.  ![Original Code Time.png](https://github.com/machudpicchu/Stock-Analysis/blob/main/Original%20Code%20Time.png)
-The original code involved running a for loop that cycled through each of the stocks and 
+The original code involved running three for loops that cycled through each row of stock data to then determine the overall change in volume over the course of the year as measured to determine if the change was positive negative.  The new code was refactored to run a single loop to run through all of the data to achieve the same results, but faster.  The new version of the code ran in 0.105 seconds, a half second faster than the original code.  ![Refactored Code Time](https://github.com/machudpicchu/Stock-Analysis/blob/main/Refactored%20Code%20Time.png)
 ## Summary
 ### What are the advantages or disadvantages to refactoring code?
 asdfj;l
