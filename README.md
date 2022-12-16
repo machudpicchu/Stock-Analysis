@@ -7,6 +7,6 @@ Steve also requested that we run the code in such a way that the program can run
 The original code involved running three for loops that cycled through each row of stock data to then determine the overall change in volume over the course of the year as measured to determine if the change was positive negative.  The new code was refactored to run a single loop to run through all of the data to achieve the same results, but faster.  The new version of the code ran in 0.105 seconds, a half second faster than the original code.  ![Refactored Code Time](https://github.com/machudpicchu/Stock-Analysis/blob/main/Refactored%20Code%20Time.png)
 ## Summary
 ### What are the advantages or disadvantages to refactoring code?
-asdfj;l
+In this case, refactoring code reduces the amount of lines of code that are written.  This is an advantage when having to debug the code.  Fewer lines of code will mean that it is easier to find and make changes if the code needs to be corrected or changed.  The disadvantage can be that a more complex code itself may be more difficult for another coder to read and understand.
 ### How do these pros and cons apply to refactoring the original VBA script?
-asdfjsl;
+The first advantage to refactoring this particular code was that it increased the scale by which we could run the data.  By this I mean that if the data set were much larger, perhaps across more years or embedded among more stocks, this program would run more efficiently.  Whereas a half second is not a noticeable difference in time with the current data set, it could make a difference of minutes in a larger data set.  This means that when the code is written more expertly, it will be able to "scale up" to larger projects more easily.  
